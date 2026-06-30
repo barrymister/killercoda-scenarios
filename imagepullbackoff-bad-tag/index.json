@@ -1,0 +1,25 @@
+{
+  "title": "ImagePullBackOff — the site won't start",
+  "description": "A Deployment references an image tag that doesn't exist. Diagnose and fix it.",
+  "details": {
+    "intro": {
+      "title": "The page",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Diagnose & fix",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Nice work",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

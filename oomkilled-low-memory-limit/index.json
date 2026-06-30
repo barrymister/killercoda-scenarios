@@ -1,0 +1,25 @@
+{
+  "title": "OOMKilled — the app gets killed under load",
+  "description": "The memory limit is far too low for the workload, so the kernel kills it.",
+  "details": {
+    "intro": {
+      "title": "The page",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Diagnose & fix",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Nice work",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

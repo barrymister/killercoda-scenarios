@@ -1,0 +1,25 @@
+{
+  "title": "CreateContainerConfigError — missing ConfigMap key",
+  "description": "A pod references a ConfigMap key that doesn't exist, so the container won't create.",
+  "details": {
+    "intro": {
+      "title": "The page",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Diagnose & fix",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Nice work",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

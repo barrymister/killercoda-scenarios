@@ -1,0 +1,10 @@
+{
+  "title": "Conditionals & exit codes",
+  "description": "Branch on a test and understand the $? exit code.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Do it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

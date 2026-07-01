@@ -1,0 +1,10 @@
+{
+  "title": "Permission denied running a script",
+  "description": "A deploy script won't execute. Make it runnable.",
+  "details": {
+    "intro": { "title": "The problem", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Diagnose & fix", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

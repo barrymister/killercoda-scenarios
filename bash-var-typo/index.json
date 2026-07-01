@@ -1,0 +1,10 @@
+{
+  "title": "cp fails: 'cannot stat /app.txt'",
+  "description": "A typo'd variable expands to empty. Find and fix it.",
+  "details": {
+    "intro": { "title": "The problem", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Diagnose & fix", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

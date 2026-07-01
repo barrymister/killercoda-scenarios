@@ -3,8 +3,9 @@
 Hands-on scenarios for [The Dev Bench](https://thedevbench.com) labs. Each folder
 is a [Killercoda](https://killercoda.com/creators) creator scenario: it spins up
 a real environment and auto-grades you with a `verify` script (the **Check**
-button). Two tracks — a **Kubernetes** lab (single-node `kubeadm` cluster) and a
-**Docker** lab (`ubuntu` host with Docker + Podman preinstalled) — each with two
+button). Tracks: a **Kubernetes** lab (single-node `kubeadm` cluster), a
+**Docker** lab, and core-skill labs — **Linux**, **Bash**, **Git** — all on the
+`ubuntu` backend (Docker + Podman + git preinstalled). Every track has two
 **modes**:
 
 - **Break-fix** (`*-<fault>` folders): a fault is injected; diagnose and fix it.
@@ -70,6 +71,33 @@ confirms you did it. Same backends as the break-fix tracks.
 | 3 | `docker-learn-ports` | publish a port (`-p host:container`) |
 | 4 | `docker-learn-volumes` | persist data with named volumes |
 | 5 | `docker-learn-env` | configure via `-e` env vars |
+
+## Core-skill labs (Linux, Bash, Git)
+
+All on the `ubuntu` backend. Each has a Learn track (guided, no fault) and a
+Break-fix track (a fault to diagnose and fix). Verify scripts are deterministic
+(filesystem / process / git state), so they grade without network flakiness.
+
+### Linux
+
+| Mode | Folders |
+|------|---------|
+| Learn | `linux-learn-files`, `linux-learn-permissions`, `linux-learn-processes`, `linux-learn-text` |
+| Break-fix | `linux-disk-space-hog`, `linux-permission-denied`, `linux-broken-symlink`, `linux-runaway-process` |
+
+### Bash
+
+| Mode | Folders |
+|------|---------|
+| Learn | `bash-learn-variables`, `bash-learn-conditionals`, `bash-learn-loops`, `bash-learn-functions` |
+| Break-fix | `bash-test-brackets`, `bash-crlf-endings`, `bash-var-typo`, `bash-pipe-subshell` |
+
+### Git
+
+| Mode | Folders |
+|------|---------|
+| Learn | `git-learn-init-commit`, `git-learn-branch-merge`, `git-learn-undo`, `git-learn-history` |
+| Break-fix | `git-unstage-secret`, `git-detached-head`, `git-merge-conflict`, `git-wrong-branch` |
 
 ## Layout per scenario
 

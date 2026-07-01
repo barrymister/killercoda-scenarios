@@ -1,0 +1,2 @@
+#!/bin/bash
+until docker info >/dev/null 2>&1; do sleep 1; done

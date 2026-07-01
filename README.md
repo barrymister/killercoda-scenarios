@@ -1,14 +1,19 @@
 # killercoda-scenarios
 
-Hands-on **break-fix** scenarios for [The Dev Bench](https://thedevbench.com)
-labs. Each folder is a [Killercoda](https://killercoda.com/creators) creator
-scenario: it spins up a real environment, quietly injects one fault, and
-auto-grades your fix with a `verify` script (the **Check** button). Two tracks:
-a **Kubernetes** lab (single-node `kubeadm` cluster) and a **Docker** lab
-(`ubuntu` host with Docker + Podman preinstalled).
+Hands-on scenarios for [The Dev Bench](https://thedevbench.com) labs. Each folder
+is a [Killercoda](https://killercoda.com/creators) creator scenario: it spins up
+a real environment and auto-grades you with a `verify` script (the **Check**
+button). Two tracks — a **Kubernetes** lab (single-node `kubeadm` cluster) and a
+**Docker** lab (`ubuntu` host with Docker + Podman preinstalled) — each with two
+**modes**:
 
-The reflex these drill: *site down → look → read the events/logs → inspect →
-fix → verify*, narrated out loud, under a clock.
+- **Break-fix** (`*-<fault>` folders): a fault is injected; diagnose and fix it.
+- **Learn** (`*-learn-*` folders): a guided getting-started walkthrough, no
+  fault — you run the commands, watch them work, and Check confirms the concept.
+
+The break-fix reflex these drill: *site down → look → read the events/logs →
+inspect → fix → verify*, narrated out loud, under a clock. Learn mode is the
+on-ramp: same real environment, one concept at a time.
 
 ## Kubernetes scenarios
 
@@ -40,6 +45,31 @@ Backend: `ubuntu` (Docker + Podman preinstalled).
 | 6 | `docker-healthcheck-failing` | HEALTHCHECK probes wrong port | `(unhealthy)` forever |
 | 7 | `docker-network-dns` | containers on the default bridge | can't resolve each other by name |
 | 8 | `docker-dockerfile-build-error` | invalid Dockerfile instruction | `docker build` fails |
+
+## Learn scenarios (getting started)
+
+Guided walkthroughs — no fault injected. Each teaches one concept and the Check
+confirms you did it. Same backends as the break-fix tracks.
+
+### Kubernetes — Learn (`kubernetes-kubeadm-1node`)
+
+| # | Folder | Teaches |
+|---|--------|---------|
+| 1 | `k8s-learn-pods` | run/inspect/log/exec a Pod |
+| 2 | `k8s-learn-deployments` | Deployments, scaling, rollout |
+| 3 | `k8s-learn-services` | expose a Deployment, endpoints, in-cluster DNS |
+| 4 | `k8s-learn-config` | ConfigMaps as env vars |
+| 5 | `k8s-learn-namespaces` | namespaces + `-n` scoping |
+
+### Docker — Learn (`ubuntu`)
+
+| # | Folder | Teaches |
+|---|--------|---------|
+| 1 | `docker-learn-run` | run/ps/logs/exec/rm a container |
+| 2 | `docker-learn-images` | pull + tag images |
+| 3 | `docker-learn-ports` | publish a port (`-p host:container`) |
+| 4 | `docker-learn-volumes` | persist data with named volumes |
+| 5 | `docker-learn-env` | configure via `-e` env vars |
 
 ## Layout per scenario
 

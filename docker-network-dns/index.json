@@ -1,0 +1,10 @@
+{
+  "title": "App can't reach the DB by name — default bridge",
+  "description": "Two containers on the default bridge can't resolve each other by name.",
+  "details": {
+    "intro": { "title": "The page", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Diagnose & fix", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

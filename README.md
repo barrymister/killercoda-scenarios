@@ -4,8 +4,9 @@ Hands-on scenarios for [The Dev Bench](https://thedevbench.com) labs. Each folde
 is a [Killercoda](https://killercoda.com/creators) creator scenario: it spins up
 a real environment and auto-grades you with a `verify` script (the **Check**
 button). Tracks: a **Kubernetes** lab (single-node `kubeadm` cluster), a
-**Docker** lab, and core-skill labs — **Linux**, **Bash**, **Git** — all on the
-`ubuntu` backend (Docker + Podman + git preinstalled). Every track has two
+**Docker** lab, core-skill labs — **Linux**, **Bash**, **Git** — and a **Slurm**
+lab (GPU/HPC job scheduling), all on the `ubuntu` backend (Docker + Podman + git
+preinstalled). Every track has two
 **modes**:
 
 - **Break-fix** (`*-<fault>` folders): a fault is injected; diagnose and fix it.
@@ -98,6 +99,27 @@ Break-fix track (a fault to diagnose and fix). Verify scripts are deterministic
 |------|---------|
 | Learn | `git-learn-init-commit`, `git-learn-branch-merge`, `git-learn-undo`, `git-learn-history` |
 | Break-fix | `git-unstage-secret`, `git-detached-head`, `git-merge-conflict`, `git-wrong-branch` |
+
+## Slurm scenarios (GPU/HPC job scheduling)
+
+Backend: `ubuntu`. Each `intro/background.sh` installs `slurm-wlm` + `munge` and
+brings up a **real single-node Slurm cluster** (localhost is both controller and
+compute node), then — for break-fix — injects one fault. This is the scheduler
+that runs GPU clusters; the GPU itself is out of scope here (it's just a `Gres`
+line), so no GPU is needed. Reflex: `sinfo` → `squeue` → `scontrol show job/node`
+→ check the daemons → fix → verify a job COMPLETES.
+
+| Mode | Folders |
+|------|---------|
+| Learn | `slurm-learn-basics`, `slurm-learn-sbatch`, `slurm-learn-resources`, `slurm-learn-queue` |
+| Break-fix | `slurm-node-drained`, `slurm-job-oversubscribed`, `slurm-munge-down`, `slurm-slurmd-down` |
+
+| # | Folder | Fault | Symptom |
+|---|--------|-------|---------|
+| 1 | `slurm-node-drained` | node left in `drain` state | jobs PENDING, nothing schedules |
+| 2 | `slurm-job-oversubscribed` | sbatch requests more CPUs than exist | PENDING, Reason: Resources |
+| 3 | `slurm-munge-down` | munge auth daemon stopped | "Invalid authentication credential" |
+| 4 | `slurm-slurmd-down` | compute daemon killed | node `down*`, jobs won't run |
 
 ## Layout per scenario
 

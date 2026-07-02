@@ -1,0 +1,25 @@
+{
+  "title": "Jobs stuck PENDING \u2014 the node is drained",
+  "description": "A drained node means nothing schedules. Find it and bring it back.",
+  "details": {
+    "intro": {
+      "title": "The problem",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Diagnose & fix",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Fixed",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "A job that can never start",
+  "description": "A batch script asks for more than exists, so it's stuck PENDING. Right-size it.",
+  "details": {
+    "intro": {
+      "title": "The problem",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Diagnose & fix",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Fixed",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Slurm commands fail with an auth error",
+  "description": "munge (Slurm's auth) is down, so every command is rejected. Restart it.",
+  "details": {
+    "intro": {
+      "title": "The problem",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Diagnose & fix",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Fixed",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

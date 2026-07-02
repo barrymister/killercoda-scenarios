@@ -1,0 +1,25 @@
+{
+  "title": "Batch jobs with sbatch",
+  "description": "Write a batch script and submit it with sbatch \u2014 how real cluster work is run.",
+  "details": {
+    "intro": {
+      "title": "What you'll learn",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Submit a batch script",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Nice work",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

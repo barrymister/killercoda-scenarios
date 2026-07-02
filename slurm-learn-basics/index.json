@@ -1,0 +1,25 @@
+{
+  "title": "The cluster & your first job",
+  "description": "Meet the scheduler: inspect the cluster and run your first job with srun.",
+  "details": {
+    "intro": {
+      "title": "What you'll learn",
+      "text": "intro/text.md",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Look at the cluster, then run a job",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "title": "Nice work",
+      "text": "finish/text.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Terraform for Azure — init & validate",
+  "description": "Write a minimal azurerm configuration and validate it offline.",
+  "details": {
+    "intro": { "title": "Terraform + azurerm", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Author and validate", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Valid config", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

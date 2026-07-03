@@ -1,0 +1,10 @@
+{
+  "title": "Azure CLI command drills",
+  "description": "Construct the az commands for everyday admin tasks and have them checked.",
+  "details": {
+    "intro": { "title": "Command fluency", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Write the commands", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Fluent", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

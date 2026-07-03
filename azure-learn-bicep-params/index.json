@@ -1,0 +1,10 @@
+{
+  "title": "Parameters, and passing the linter",
+  "description": "Parameterise a Bicep template and keep secrets out with @secure(), then lint it clean.",
+  "details": {
+    "intro": { "title": "Params & the linter", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Parameterise and lint", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Clean template", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

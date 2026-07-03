@@ -1,0 +1,10 @@
+{
+  "title": "Blob storage on the Azurite emulator",
+  "description": "Run the Azurite emulator and drive real az storage commands — no Azure account.",
+  "details": {
+    "intro": { "title": "Azurite = real storage, free", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Create a container and upload a blob", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Blob uploaded", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

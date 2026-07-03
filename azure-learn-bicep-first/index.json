@@ -1,0 +1,10 @@
+{
+  "title": "Your first Bicep template",
+  "description": "Author a Bicep file and compile it to ARM JSON with az bicep build.",
+  "details": {
+    "intro": { "title": "Azure IaC, for free", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Write and build a Bicep template", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Compiled!", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "df & du",
+  "description": "Find free space per filesystem and hunt the biggest directory.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Hunt the culprit", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

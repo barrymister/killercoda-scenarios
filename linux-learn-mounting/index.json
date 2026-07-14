@@ -1,0 +1,10 @@
+{
+  "title": "Mounting & fstab",
+  "description": "Mount a filesystem with a loop device and learn to persist it via fstab.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Mount it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

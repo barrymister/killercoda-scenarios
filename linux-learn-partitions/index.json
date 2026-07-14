@@ -1,0 +1,10 @@
+{
+  "title": "Filesystems & blkid",
+  "description": "Create an ext4 filesystem on a file image and read its metadata.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Format and inspect", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

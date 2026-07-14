@@ -1,0 +1,10 @@
+{
+  "title": "systemd services",
+  "description": "Write a unit file, then enable and start it with systemctl.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Create, enable, start", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

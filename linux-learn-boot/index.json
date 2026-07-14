@@ -1,0 +1,10 @@
+{
+  "title": "Boot & targets",
+  "description": "Read the default systemd target, list targets, inspect this boot's logs, and set the default back to multi-user.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Set the default target", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

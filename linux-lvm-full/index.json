@@ -1,0 +1,10 @@
+{
+  "title": "Volume out of space",
+  "description": "An LVM filesystem is full but its volume group has free extents. Extend it live.",
+  "details": {
+    "intro": { "title": "The problem", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Diagnose & fix", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

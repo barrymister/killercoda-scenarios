@@ -1,0 +1,10 @@
+{
+  "title": "journald & logrotate",
+  "description": "Query the systemd journal, then write a logrotate config to keep a log from filling the disk.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Query and rotate", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

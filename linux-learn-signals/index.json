@@ -1,0 +1,10 @@
+{
+  "title": "Processes: priority & signals",
+  "description": "Find a running process, lower its priority with renice, then stop it cleanly with a signal.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Renice and signal", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

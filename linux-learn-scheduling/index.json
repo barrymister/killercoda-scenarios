@@ -1,0 +1,10 @@
+{
+  "title": "cron, at & systemd timers",
+  "description": "Write a script and schedule it with cron, then meet at and systemd timers.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Schedule a cron job", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

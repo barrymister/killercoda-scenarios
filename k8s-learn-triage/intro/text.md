@@ -1,0 +1,1 @@
+When a Pod will not run, a repeatable diagnosis path saves time: check the nodes, then the Pod state, then the events, then the logs. This lab drops a deliberately broken Pod named `mystery` into your cluster so you can practice that methodology. Work down the layers, find the root cause, and record what you found.

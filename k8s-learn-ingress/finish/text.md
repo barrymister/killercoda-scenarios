@@ -1,0 +1,1 @@
+Well done. You authored an Ingress with a host and path rule pointing at a Service. Note: this backend has no ingress controller installed, so the route will not actually serve traffic - we grade the correctly authored Ingress rule, not live routing. On a real cluster an ingress controller would turn this rule into working HTTP routing.

@@ -1,0 +1,1 @@
+You created a static Pod by dropping a manifest into /etc/kubernetes/manifests, and the kubelet ran it and published a mirror Pod to the API. Deleting the file removes the Pod; you cannot delete a static Pod through kubectl alone. This mechanism is how the control-plane pods themselves are managed.

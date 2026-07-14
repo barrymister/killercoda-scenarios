@@ -1,0 +1,1 @@
+An Ingress declares host and path HTTP routing rules that point at backend Services. An ingress controller reads these rules and actually serves the traffic. In this lab you will author an Ingress that routes a host and path to a Service.

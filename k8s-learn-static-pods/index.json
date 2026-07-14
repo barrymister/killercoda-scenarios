@@ -1,0 +1,10 @@
+{
+  "title": "Run a static Pod from a manifest",
+  "description": "Drop a manifest in the kubelet's static-pod directory and watch the Pod appear.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Do it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" }
+}

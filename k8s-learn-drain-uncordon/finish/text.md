@@ -1,0 +1,1 @@
+You ran a complete maintenance cycle: cordon, drain, and uncordon. On a real multi-node cluster the drained pods would reschedule onto other nodes; on this single node they simply wait until the node is uncordoned. Use this same flow any time you patch or reboot a node.

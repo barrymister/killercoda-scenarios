@@ -1,0 +1,1 @@
+Every Service in Kubernetes automatically gets an in-cluster DNS name served by CoreDNS. This lets pods reach each other by name instead of by IP address, which can change. In this lab you will create a Service and look it up by its DNS name from a throwaway pod.

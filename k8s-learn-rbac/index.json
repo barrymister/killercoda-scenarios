@@ -1,0 +1,10 @@
+{
+  "title": "RBAC: Roles and RoleBindings",
+  "description": "Create a Role and RoleBinding so a ServiceAccount can list pods.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Do it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" }
+}

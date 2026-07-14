@@ -1,0 +1,1 @@
+You created a namespace guarded by a ResourceQuota and a LimitRange. New pods in team-a now inherit default requests and limits and count against the namespace totals; a pod that would exceed the quota is rejected at admission. This is the standard way to share one cluster fairly among teams.

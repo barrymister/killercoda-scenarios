@@ -1,0 +1,10 @@
+{
+  "title": "Route HTTP with an Ingress",
+  "description": "Author an Ingress resource with a host and path rule.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Do it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" }
+}

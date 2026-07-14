@@ -1,0 +1,1 @@
+Well done. You authored a NetworkPolicy that selects the api pods and allows ingress only from web pods. Note: actual enforcement depends on the cluster CNI and may not apply on this backend, so we grade the correctly authored policy spec, not live traffic blocking. On a cluster with an enforcing CNI this policy would drop any traffic to api that does not come from web.

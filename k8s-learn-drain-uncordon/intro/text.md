@@ -1,0 +1,1 @@
+Before you take a node down for maintenance you cordon it (mark it unschedulable) and drain it (evict its pods so they reschedule elsewhere). When the work is done you uncordon the node to return it to service. In this lab you will run a full maintenance cycle on your cluster node.

@@ -1,0 +1,10 @@
+{
+  "title": "A deny-all NetworkPolicy cut off a pod",
+  "description": "A deny-all NetworkPolicy is blocking traffic to an app. Relax it to restore access (policy state graded).",
+  "details": {
+    "intro": { "title": "The page", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Diagnose & fix", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" }
+}

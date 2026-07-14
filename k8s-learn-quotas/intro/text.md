@@ -1,0 +1,1 @@
+A ResourceQuota caps the total CPU and memory requests and limits, plus object counts like pods, that a namespace may consume. A LimitRange sets per-container default requests and limits, so pods that do not ask for resources still get sane values that the quota can account for. Together they keep one team from starving the rest of the cluster.

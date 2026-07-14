@@ -1,0 +1,1 @@
+A CustomResourceDefinition (CRD) extends the Kubernetes API with your own kind of object. After you apply a CRD the API server accepts and stores custom resources of that kind, which you manage with kubectl just like built-in objects. Helm charts and operators ship CRDs to add their own types this way.

@@ -1,0 +1,1 @@
+The kubelet watches the directory /etc/kubernetes/manifests and directly runs any Pod manifest placed there, with no API server or scheduler involved. The kubelet then publishes a read-only mirror Pod so the workload also shows up in `kubectl get pods`. This is exactly how kubeadm runs the control-plane components.

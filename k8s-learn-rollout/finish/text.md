@@ -1,0 +1,1 @@
+You updated a Deployment's image, watched the rolling update, and reverted it with `kubectl rollout undo`. Revisions make rollbacks fast and safe, which is exactly what you want during an incident. Try `kubectl rollout history deployment/web` to see every recorded revision.

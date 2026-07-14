@@ -1,0 +1,1 @@
+You extended the Kubernetes API with a CRD and created a Widget custom resource from it. From here an operator or controller could watch Widgets and act on them, which is how tools like cert-manager and Prometheus work. Removing the CRD deletes every custom resource of that kind.

@@ -1,0 +1,1 @@
+A PersistentVolume (PV) is a piece of storage that exists in the cluster, and a PersistentVolumeClaim (PVC) is a request for some of that storage. Kubernetes matches a claim to a suitable PV and binds them together, after which a Pod can mount the claim like a volume. In this lab you will create a hostPath PV, a PVC that requests it, and confirm the claim reaches the Bound state.

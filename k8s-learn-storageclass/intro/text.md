@@ -1,0 +1,1 @@
+A StorageClass describes a "class" of storage and names the provisioner that creates volumes on demand. When a PersistentVolumeClaim names a StorageClass, Kubernetes can auto-create a matching PV for it - this is called dynamic provisioning. In this lab you will author a StorageClass named `fast` and confirm the object exists in the cluster.

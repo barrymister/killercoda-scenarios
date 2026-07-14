@@ -1,0 +1,10 @@
+{
+  "title": "Restrict traffic with a NetworkPolicy",
+  "description": "Author a NetworkPolicy that selects pods and allows only specific ingress.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Do it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" }
+}

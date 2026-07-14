@@ -1,0 +1,1 @@
+ConfigMaps hold non-secret configuration and Secrets hold sensitive values like tokens and passwords. Both can be injected into a Pod as environment variables, which keeps your container image generic and reusable across environments. In this lab you will create one of each and wire them into a Pod.

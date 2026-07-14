@@ -1,0 +1,1 @@
+Well done. You exposed a deployment as a Service and resolved it by its CoreDNS name from a pod. Remember the FQDN pattern `<service>.<namespace>.svc.cluster.local`, which is how services find each other across namespaces.

@@ -1,0 +1,1 @@
+Updating a Deployment's container image triggers a rolling update: Kubernetes brings up new Pods and retires old ones with no downtime. Every change is recorded as a revision, so if the new version misbehaves you can revert. In this lab you will update the image, watch the rollout, and then roll it back.

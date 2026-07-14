@@ -1,0 +1,1 @@
+You created a ConfigMap and a Secret and injected both into a Pod as environment variables with `valueFrom`. This is the standard way to keep images generic while feeding each environment its own config and credentials. You can also mount them as files with a volume when an app expects config on disk.

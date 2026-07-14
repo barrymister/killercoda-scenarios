@@ -1,0 +1,1 @@
+A HorizontalPodAutoscaler watches a metric, here CPU usage against each Pod's CPU request, and adjusts a Deployment's replica count between a minimum and maximum. It needs resource requests set on the Pods and a metrics source to read from. In this lab you will set a CPU request and create an HPA that targets it.

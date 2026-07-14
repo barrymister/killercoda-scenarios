@@ -1,0 +1,10 @@
+{
+  "title": "Triage a broken Pod: nodes to logs",
+  "description": "Walk the nodes-pods-events-logs methodology to find why a Pod is failing.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Do it", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" }
+}

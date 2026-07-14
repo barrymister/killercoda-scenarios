@@ -1,0 +1,1 @@
+By default every pod can talk to every other pod. A NetworkPolicy changes that: it selects a set of target pods and whitelists which sources may reach them, denying everything else it selects. In this lab you will author a policy that lets only web pods reach api pods.

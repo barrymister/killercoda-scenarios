@@ -1,0 +1,1 @@
+A taint on a node repels any Pod that does not carry a matching toleration. Tolerations let specific Pods land on tainted nodes, which is how you reserve nodes for particular workloads such as a dedicated team or GPU jobs. In this lab you will taint the node and schedule a Pod that tolerates it.

@@ -1,0 +1,1 @@
+You created a hostPath PersistentVolume, claimed it with a PVC, and watched Kubernetes bind the two together. A Pod then mounted the claim like any other volume. This static binding pattern is the foundation for the dynamic provisioning you will meet with StorageClasses.

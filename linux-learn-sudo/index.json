@@ -1,0 +1,10 @@
+{
+  "title": "sudo & privilege",
+  "description": "Grant a user sudo the safe way with a validated drop-in file.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Grant and validate", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "IP addresses & routes",
+  "description": "Inspect interfaces, addresses, and routes with the ip suite, then record the default gateway.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Inspect and record", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

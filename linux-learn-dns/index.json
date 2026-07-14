@@ -1,0 +1,10 @@
+{
+  "title": "DNS resolution",
+  "description": "Add a hosts entry and resolve it, and learn the name-to-IP lookup order.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Map and resolve", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

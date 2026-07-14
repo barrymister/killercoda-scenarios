@@ -1,0 +1,10 @@
+{
+  "title": "Firewall rules (nftables)",
+  "description": "Author a default-deny nftables ruleset and validate its syntax with nft check mode.",
+  "details": {
+    "intro": { "title": "What you'll learn", "text": "intro/text.md", "background": "intro/background.sh" },
+    "steps": [ { "title": "Write and check a ruleset", "text": "step1/text.md", "verify": "step1/verify.sh" } ],
+    "finish": { "title": "Nice work", "text": "finish/text.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
